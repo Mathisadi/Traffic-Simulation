@@ -1,4 +1,4 @@
-# CTZ
+# Traffic Simulation
 
           ______
          /|_||_\`.__

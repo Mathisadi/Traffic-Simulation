@@ -1,12 +1,12 @@
 {
     "route": [
         {
-            "item_id": 5406,
-            "value": ["Route", 2]
+            "item_id": 5405,
+            "value": ["Depart", 2, 10.0]
         },
         {
-            "item_id": 5405,
-            "value": ["Depart", 2, 12.0]
+            "item_id": 5406,
+            "value": ["Route", 2]
         },
         {
             "item_id": 5407,
@@ -21,7 +21,7 @@
             ]
         },
         {
-            "item_id": 5307,
+            "item_id": 5409,
             "value": ["Intersection", [ false, false, false, false],
                 0
             ]
@@ -33,14 +33,18 @@
             ]
         },
         {
-            "item_id": 5409,
+            "item_id": 5307,
             "value": ["Intersection", [ false, false, false, false],
                 0
             ]
         },
         {
             "item_id": 5509,
-            "value": ["Route", 1]
+            "value": ["Fin", 1]
+        },
+        {
+            "item_id": 5306,
+            "value": ["Fin", 0]
         },
         {
             "item_id": 5510,
@@ -53,70 +57,12 @@
             "value": ["Route", 3]
         },
         {
-            "item_id": 5610,
-            "value": ["Route", 1]
-        },
-        {
-            "item_id": 5711,
-            "value": ["Pieton", [ 0, 2],
-                [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    false,
-                    false,
-                    false,
-                    false
-                ]
-            ]
-        },
-        {
             "item_id": 5712,
-            "value": ["Pieton", [ 0, 2],
-                [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    false,
-                    false,
-                    false,
-                    false
-                ]
-            ]
-        },
-        {
-            "item_id": 5710,
-            "value": ["Depart_pieton", 2, 10.0, [ 99999],
-                true
-            ]
-        },
-        {
-            "item_id": 5713,
-            "value": ["Depart_pieton", 0, 12.0, [ 9999],
-                true
-            ]
-        },
-        {
-            "item_id": 5812,
-            "value": ["Fin", 1]
-        },
-        {
-            "item_id": 5813,
-            "value": ["Depart", 3, 12.0]
+            "value": ["Depart", 3, 10.0]
         },
         {
             "item_id": 5410,
             "value": ["Fin", 2]
-        },
-        {
-            "item_id": 5306,
-            "value": ["Fin", 0]
         },
         {
             "item_id": 5309,
@@ -130,7 +76,7 @@
         },
         {
             "item_id": 5311,
-            "value": ["Depart", 0, 12.0]
+            "value": ["Depart", 0, 10.0]
         }
     ]
 }
